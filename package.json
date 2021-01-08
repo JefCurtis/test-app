@@ -9,8 +9,8 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4",
-    "release-it": "^14.2.2"
+    "release-it": "^14.2.2",
+    "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,7 +19,6 @@
     "eject": "react-scripts eject",
     "release": "git checkout main && git pull && GITHUB_TOKEN=$(grep GITHUB_TOKEN .env.local | cut -d '=' -f2) release-it",
     "release:auto": "git checkout main && git pull && GITHUB_TOKEN=$(grep GITHUB_TOKEN .env.local | cut -d '=' -f2) release-it --ci"
-
   },
   "eslintConfig": {
     "extends": [
@@ -41,14 +40,14 @@
   },
   "release-it": {
     "git": {
-        "tag": true,
-        "push": true
+      "tag": true,
+      "push": true
     },
     "npm": {
-        "publish": false
+      "publish": false
     },
     "github": {
-        "release": true
+      "release": true
     }
   }
 }
