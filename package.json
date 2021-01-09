@@ -49,6 +49,9 @@
     },
     "github": {
       "release": true
+    },
+    "hooks": {
+      "before:init": "git fetch --prune --prune-tags origin"
     }
   }
 }
