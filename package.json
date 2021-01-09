@@ -41,7 +41,7 @@
   },
   "release-it": {
     "git": {
-      "tag": false,
+      "tag": true,
       "push": true
     },
     "npm": {
