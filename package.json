@@ -1,6 +1,6 @@
 {
   "name": "my-app-v2",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.8",
@@ -49,9 +49,6 @@
     },
     "github": {
       "release": true
-    },
-    "hooks": {
-      "before:init": "git fetch --prune --prune-tags origin"
     }
   }
 }
